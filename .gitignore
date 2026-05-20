@@ -1,0 +1,28 @@
+# Ignore R and Python temp files
+.Rhistory
+.RData
+.Ruserdata
+__pycache__/
+*.pyc
+
+# Ignore large data files
+*.rds
+*.h5ad
+*.pkl
+*.loom
+data/Final_Annotated_RDS/*.rds
+data/raw/*.rds
+data/raw/**/*.h5ad
+data/raw/**/*.pkl
+
+# Ignore outputs
+output/**/*.png
+output/**/*.csv
+output/**/*.pdf
+
+# Keep the data and output placeholders
+!data/raw/.gitkeep
+!data/Final_Annotated_RDS/.gitkeep
+!data/raw/TMJ_E16_Chondro_scVelo/.gitkeep
+!data/raw/TMJ_E16_Chondro_STREAM/.gitkeep
+!output/.gitkeep
