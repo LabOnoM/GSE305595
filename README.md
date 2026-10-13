@@ -117,6 +117,10 @@ source("scripts/06_fig6e_crabp1.R")     # Fig 6E
 | **Fig 5H** | `05_fig5_stream.py` | `Fig5/Fig5H_STREAM_SubwayMap.png`, `Fig5H_STREAM_*.png` |
 | **Fig 6E** | `06_fig6e_crabp1.R` | `Fig6/Fig6E_Crabp1_DotPlot.png` |
 
+## Checks and deploys
+
+This repository uses no GitHub Actions (LabOnoM decision, 2026-10-13): it holds figure-reproduction code with no automated checks, so re-run the affected scripts by hand before merging and record the result in the pull request; nothing runs automatically.
+
 ---
 ## License
 This code is released under the **CC-BY-4.0** License.
